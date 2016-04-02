@@ -244,6 +244,9 @@ footer{
 
   header ul li{
     display: none;
+    float: right;
+    margin: 0;
+
   }
 
   header{
@@ -325,6 +328,11 @@ footer{
     right:.75em;
   }*/
 
+header nav ul{
+    height:0;
+    transition:height 1s;
+    overflow: hidden;
+  }
 
   header ul.slideDown{
     height: 10em;
