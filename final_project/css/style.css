@@ -205,6 +205,8 @@ footer{
 #pics img{
   display: block;
   margin: 0 auto;
+  width: 100%;
+  height: 50%;
 }
 
 /*.menu-btn div {
@@ -239,6 +241,8 @@ footer{
 
 
 @media screen and (max-width: 768px){
+
+/*@media screen and (max-width: 768px){*/
 
   header ul li{
     display: none;
