@@ -1,0 +1,331 @@
+body{
+  font-family: 'Amatic SC', cursive, sans-serif;
+  font-weight: 700;
+}
+
+#welcome{
+  padding: 10px;
+  /*height: 100px;
+  margin: auto 0;*/
+}
+
+header{
+  background: lightgrey;
+  /*padding: 0;*/
+  overflow: hidden;
+  color: red;
+  font-size: 30px;
+ /* border: bold black 2px solid;*/
+}
+
+header ul{
+  padding-right: 20px;
+}
+header ul li{
+  float:right;
+  padding: 5px 10px 5px 15px;
+  color: red;
+}
+
+#hamburger{
+  display: none;
+}
+
+
+
+#welcome h1{
+  margin: 0 auto;
+  color: black;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 700;
+  padding: 5px;
+}
+
+#welcome h2{
+  margin:0 auto;
+  color:black;
+  text-align: center;
+  font-size: 50px;
+}
+
+#type p{
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  margin:auto 50px;
+}
+
+hr{
+  margin: 0 25px;
+}
+
+/*#pics{
+  margin: auto 0;
+  padding: 10px;
+}*/
+
+#burgers h1{
+  margin:0 auto;
+  color:black;
+  text-align: center;
+  font-size: 40px;
+  padding: 30px;
+}
+
+#umami{
+  padding: 5px;
+  /*text-align: center;*/
+  font-size: 25px;
+  border:1px solid lightgrey;
+  margin-top: 5px;
+  /*margin:auto 50px;*/
+}
+
+#umami h3{
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#deli{
+  padding: 5px;
+  /*text-align: center;*/
+  font-size: 25px;
+  border:1px solid lightgrey;
+  margin-top: 5px;
+  /*margin:auto 50px;*/
+}
+
+#deli h3{
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#secret{
+  padding: 5px;
+  /*text-align: center;*/
+  font-size: 25px;
+  border:1px solid lightgrey;
+  margin-top: 5px;
+  /*margin:auto 50px;*/
+}
+
+#secret h3{
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#test{
+  color: white;
+}
+
+
+
+
+/*#who{
+  padding: 50px;
+  margin: auto 0;
+  height: 100px;
+}*/
+
+#who h1{
+  margin: auto 0;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+}
+
+#who p{
+  padding: 15px;
+  text-align: center;
+  font-size: 25px;
+  margin: auto 0;
+}
+
+footer{
+  padding-top: 40px;
+  padding-bottom: 5px;
+  text-align: center;
+  /*height: 400px;*/
+  /*margin: 0 auto;*/
+  background: lightgrey;
+  font-size: 20px;
+}
+
+
+
+
+/*THIS IS FOR THE BURGER SECTION*/
+/*.burgers{
+  height:10px;
+  width: 
+}
+
+.one{
+  width: 20px;
+}*/
+
+
+/*section{
+          height: 200px;
+}*/
+/*.one{   
+  <img src="images/celine1.jpg">;
+  height: 50px;
+}
+.two{
+  <img src="images/celine2.jpg">;
+  height: 50px;
+}  
+.three{
+  <img src="images/celine3.jpg">;
+  height: 50px;
+}*/
+
+/*.fotorama{
+  /*height: 30px;*/
+  /*width: 50%;
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+}*/*/
+
+
+.fotorama img{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+#pics img{
+  display: block;
+  margin: 0 auto;
+}
+
+/*.menu-btn div {
+ position: absolute;
+ left: 100%;
+ top: 64%;
+ padding-right: 8px;
+ margin-top: -0.50em;
+ line-height: 1.2;
+ font-size: 18px;
+ font-weight: 200;
+ vertical-align: middle;
+ z-index: 99;
+}
+ 
+.menu-btn span {
+ display: block;
+ width: 19px;
+ height: 3px;
+ margin: 4px 0;
+ background: rgb(0,0,0);
+ z-index: 99;
+}*/
+
+/*.responsive-menu{
+ display: none;
+}*/
+ 
+/*.expand {
+ display: block !important; 
+}*/
+
+
+@media screen and (max-width: 768px){
+
+  header ul li{
+    display: none;
+  }
+
+  header{
+    height: 45px;
+  }
+
+  #hamburger{
+    display: block;
+    /*float: right;*/
+    /*margin: 0 0 20px 0;*/
+    margin: 0 auto;
+  }
+
+  .line{
+    height: 5px;
+    width: 30px;
+    background-color: blue;
+    margin: 5px auto;
+    border-radius: 5px;
+  }
+
+  #type p{
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    margin:auto 5px;
+    font-weight: 400;
+  }
+
+  #burgers{
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+
+  #burgers h1{
+    font-size: 80px;
+    font-weight: 700;
+  }
+
+  #who p{
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    margin:auto 5px;
+    font-weight: 400;
+  }
+
+  #umami{
+    padding: 5px;
+    font-size: 35px;
+    margin-top: 5px;
+  }
+
+  #deli{
+    padding: 5px;
+    font-size: 35px;
+    margin-top: 5px;
+  }
+
+  #secret{
+    padding: 5px;
+    font-size: 35px;
+    margin-top: 5px;
+  }
+
+  #who h1{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    font-size: 80px;
+    font-weight: 700;
+  }
+
+  /*header ul li:first-child{
+    display:block;
+    position: absolute;
+    top:.6em;
+    right:.75em;
+  }*/
+
+
+  header ul.slideDown{
+    height: 10em;
+    display: block;
+  }
+}
